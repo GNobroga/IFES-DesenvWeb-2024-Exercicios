@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+
+    <form action="/product/1">
+        <input asp-route-productId="@Model.Id" hidden/>
+        <label for="nome" asp-for="@Model.Name">Nome</label>
+        <input type="text" name="nome" id="nome" asp-for="@Model.Name">
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
