@@ -1,0 +1,53 @@
+@layer reset, utilities, components; 
+
+@layer reset {
+    * {
+        box-sizing: border-box;
+    }
+}
+
+@layer utilities {
+
+    .fs-10px {
+        font-size: 10px;
+    }
+
+    .fs-11px {
+        font-size: 11px;
+    }
+
+    .fs-12px {
+        font-size: 12px;
+    }
+    
+    .fs-14px {
+        font-size: 14px;
+    }
+
+    .fs-15px {
+        font-size: 15px;
+    }
+
+    .fs-16px {
+        font-size: 16px;
+    }
+
+    .cursor-pointer {
+        cursor: pointer;
+    }
+
+    
+    .scrollable::-webkit-scrollbar {
+        display: none;
+    }
+
+    .btn-hover:hover {
+        opacity: 0.7 !important;
+    }
+
+    .opacity-80 {
+        opacity: 0.8;
+    }
+}
+
+
